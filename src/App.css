@@ -1,38 +1,120 @@
-.App {
+
+body{
+   font-family: "Roboto", sans-serif;
+   background-color: #613401;
+   color: #fff;
+  
+}
+.heading{
+  text-align: center;
+  margin-top: 23px;
+}
+.salah-tracker {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  color: #b8804b;
+  background-color: #ffe09a;
+  border-radius: 5px;
+  font-size: 22px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.salah-tracker input,
+.salah-tracker button {
+  margin-bottom: 10px;
+  background-color: #e29237;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 23px;
+  text-align: center;
+  padding: 12px;
+
+}
+.country-input{
+ width: 110px;
+}
+.city-input{
+  width: 110px;
+  margin: 22px;
+ }
+
+.enter-button {
+  background-color: #ca6c00;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin: 23px;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.enter-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.salah-times {
+  margin-top: 20px;
+ 
+}
+
+.salah-times h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.salah-times ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.salah-times li {
+  margin-bottom: 5px;
+  font-family: "Fira Sans", sans-serif;
+}
+.light-gray {
+  background-color: lightgray;
+}
+
+.light-orange {
+  background-color: lightcoral;
+}
+
+.medium-orange {
+  background-color: coral;
+}
+
+.dark-orange {
+  background-color: rgb(223, 96, 46);
+}
+.prayer-status{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 23px;
+}
+ul li{
+  list-style: none;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+}
+.prayer-list{
+  margin-top: 82px;
+  width: 220px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #ffe09a;
+  color: #613401;
+  padding: 23px;
+  line-height: 40px;
+  border-radius: 23px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-calendar{
+  background-color: #e2a813;
 }
