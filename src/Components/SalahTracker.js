@@ -14,7 +14,7 @@ const SalahTracker = () => {
 
   const fetchData = async () => {
     setFetching(true);
-    const response = await axios.get('http://api.aladhan.com/v1/timingsByCity', {
+    const response = await axios.get('https://api.aladhan.com/v1/timingsByCity', {
       params: {
         city: city,
         country: country,
