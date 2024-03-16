@@ -4,6 +4,10 @@ import PrayerStatus from './Components/PrayerStatus'; // Import PrayerStatus com
 import { PrayerStatusProvider } from './Components/PrayerStatusContext';
 import "./App.css";
 
+//Added LocomotiveScroll v5 for smooth scrolling and better UX.
+import LocomotiveScroll from 'locomotive-scroll';
+const locomotiveScroll = new LocomotiveScroll();
+
 const App = () => {
   return (
     <PrayerStatusProvider>
